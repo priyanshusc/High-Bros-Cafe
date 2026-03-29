@@ -3,7 +3,7 @@ import { Coffee, Facebook, Instagram, Twitter } from 'lucide-react';
 
 const Footer = () => {
     return (
-        <footer className="bg-primary-950 text-primary-200 pt-20 pb-10">
+        <footer className="bg-primary-900 text-white pt-20 pb-10">
             <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
                 <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-12 mb-16">
 
@@ -11,19 +11,25 @@ const Footer = () => {
                     <div className="lg:col-span-1">
                         <div className="flex items-center gap-2 mb-6">
                             <Coffee className="w-8 h-8 text-accent" />
-                            <span className="text-2xl font-display font-bold text-white">Chator Adda</span>
+                            <span className="text-2xl font-display font-bold text-white">Daisy N Bean</span>
                         </div>
                         <p className="text-sm leading-relaxed mb-6 text-primary-300">
                             Where taste meets comfort. Your favorite neighborhood spot for premium coffee, delicious food, and great conversations.
                         </p>
                         <div className="flex gap-4">
-                            <a href="#" className="w-10 h-10 rounded-full bg-primary-900 flex items-center justify-center hover:bg-accent hover:text-white transition-colors">
+                            <a href="https://www.instagram.com/daisynbeancafe/"
+                                target="_blank"
+                                rel="noopener noreferrer"
+                                className="w-10 h-10 rounded-full bg-primary-800 flex items-center justify-center hover:bg-accent hover:text-white transition-colors">
                                 <Instagram className="w-5 h-5" />
                             </a>
-                            <a href="#" className="w-10 h-10 rounded-full bg-primary-900 flex items-center justify-center hover:bg-accent hover:text-white transition-colors">
+                            <a href="#"
+                                target="_blank"
+                                rel="noopener noreferrer"
+                                className="w-10 h-10 rounded-full bg-primary-800 flex items-center justify-center hover:bg-accent hover:text-white transition-colors">
                                 <Facebook className="w-5 h-5" />
                             </a>
-                            <a href="#" className="w-10 h-10 rounded-full bg-primary-900 flex items-center justify-center hover:bg-accent hover:text-white transition-colors">
+                            <a href="#" className="w-10 h-10 rounded-full bg-primary-800 flex items-center justify-center hover:bg-accent hover:text-white transition-colors">
                                 <Twitter className="w-5 h-5" />
                             </a>
                         </div>
@@ -59,7 +65,7 @@ const Footer = () => {
                             <input
                                 type="email"
                                 placeholder="Enter your email"
-                                className="w-full bg-primary-900 border border-primary-800 rounded-l-lg px-4 py-2 focus:outline-none focus:border-accent text-white"
+                                className="w-full bg-primary-800 border border-primary-700 rounded-l-lg px-4 py-2 focus:outline-none focus:border-accent text-white"
                             />
                             <button
                                 type="submit"
@@ -72,9 +78,9 @@ const Footer = () => {
 
                 </div>
 
-                <div className="border-t border-primary-900 pt-8 flex flex-col md:flex-row justify-between items-center gap-4 text-sm text-primary-400">
-                    <p>© {new Date().getFullYear()} Chator Adda Café. All rights reserved.</p>
-                    <p>Designed with ❤️ for coffee lovers.</p>
+                <div className="border-t border-primary-800 pt-8 flex flex-col md:flex-row justify-between items-center gap-4 text-sm text-primary-400">
+                    <p>© {new Date().getFullYear()} Diany N Bean Café. All rights reserved.</p>
+                    <p>Designed with ❤️ by <span className="text-accent font-bold">Priyanshu Singh Chauhan</span></p>
                 </div>
             </div>
         </footer>

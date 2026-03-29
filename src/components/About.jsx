@@ -74,7 +74,7 @@ const About = () => {
                             className="space-y-4 text-gray-600 text-lg"
                         >
                             <p>
-                                Founded in the heart of the city, Chator Adda Café began with a simple mission: to create a space where people could disconnect from their busy lives and reconnect with each other over an exceptional cup of coffee.
+                                Founded in the heart of the city, <span className="text-primary-700 font-bold">Daisy N Bean Café</span> began with a simple mission: to create a space where people could disconnect from their busy lives and reconnect with each other over an exceptional cup of coffee.
                             </p>
                             <p>
                                 We believe in quality without compromise. That is why we source our beans from sustainable, direct-trade farms, and our ingredients are locally sourced whenever possible. Every pastry is baked fresh daily by our artisanal bakers.

@@ -36,7 +36,7 @@ const Navbar = () => {
                             className={`text-2xl font-display font-bold ${isScrolled ? 'text-gray-900' : 'text-white'
                                 }`}
                         >
-                            Chator Adda
+                            Daisy N Bean
                         </span>
                     </div>
 

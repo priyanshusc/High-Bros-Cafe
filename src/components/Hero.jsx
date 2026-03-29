@@ -27,7 +27,7 @@ const Hero = () => {
                         Welcome to
                     </span>
                     <h1 className="text-5xl md:text-7xl lg:text-8xl font-display font-bold text-white mb-6 drop-shadow-lg">
-                        Chator Adda <span className="text-accent italic">Café</span>
+                        Daisy N Bean <span className="text-accent italic">Café</span>
                     </h1>
                     <p className="mt-4 text-xl md:text-2xl text-gray-200 max-w-2xl mx-auto font-light mb-10">
                         Where Taste Meets Comfort. Experience the perfect blend of artisanal coffee and culinary delight.

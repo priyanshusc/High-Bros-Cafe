@@ -32,7 +32,7 @@ const Location = () => {
                                 </div>
                                 <div>
                                     <h4 className="font-bold text-gray-900 mb-1">Location</h4>
-                                    <p className="text-gray-600">123 Coffee Avenue<br />Café District<br />Cityville, ST 12345</p>
+                                    <p className="text-gray-600">India Expo Plaza<br />Greater Noida, Uttar Pradesh 201310</p>
                                 </div>
                             </motion.div>
 
@@ -80,7 +80,7 @@ const Location = () => {
                                 </div>
                                 <div>
                                     <h4 className="font-bold text-gray-900 mb-1">Email</h4>
-                                    <p className="text-gray-600">hello@chatoradda.com</p>
+                                    <p className="text-gray-600">hello@daisynbean.com</p>
                                 </div>
                             </motion.div>
                         </div>

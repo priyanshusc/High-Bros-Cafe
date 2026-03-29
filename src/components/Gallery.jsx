@@ -15,7 +15,7 @@ const Gallery = () => {
                             viewport={{ once: true }}
                             className="text-4xl md:text-5xl font-display font-bold text-gray-900 mb-4"
                         >
-                            Moments at Chator Adda
+                            Moments at Daisy N Bean
                         </motion.h2>
                         <motion.p
                             initial={{ opacity: 0, y: 20 }}
@@ -32,10 +32,12 @@ const Gallery = () => {
                         whileInView={{ opacity: 1, x: 0 }}
                         viewport={{ once: true }}
                         transition={{ delay: 0.2 }}
-                        href="#"
+                        href="https://www.instagram.com/daisynbeancafe/"
+                        target="_blank"
+                        rel="noopener noreferrer"
                         className="hidden md:flex items-center gap-2 text-primary-600 font-medium hover:text-primary-800 transition-colors mt-6 md:mt-0"
                     >
-                        <Instagram className="w-5 h-5" /> @chatoradda
+                        <Instagram className="w-5 h-5" /> @daisynbeancafe
                     </motion.a>
                 </div>
 
@@ -65,8 +67,13 @@ const Gallery = () => {
                 </div>
 
                 <div className="mt-8 md:hidden text-center">
-                    <a href="#" className="inline-flex items-center gap-2 text-primary-600 font-medium hover:text-primary-800 transition-colors">
-                        <Instagram className="w-5 h-5" /> Follow @chatoradda
+                    <a 
+                        href="https://www.instagram.com/daisynbeancafe/" 
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        className="inline-flex items-center gap-2 text-primary-600 font-medium hover:text-primary-800 transition-colors"
+                    >
+                        <Instagram className="w-5 h-5" /> Follow @daisynbeancafe
                     </a>
                 </div>
             </div>
