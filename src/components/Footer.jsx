@@ -80,7 +80,17 @@ const Footer = () => {
 
                 <div className="border-t border-primary-800 pt-8 flex flex-col md:flex-row justify-between items-center gap-4 text-sm text-primary-400">
                     <p>© {new Date().getFullYear()} Diany N Bean Café. All rights reserved.</p>
-                    <p>Designed with ❤️ by <span className="text-accent font-bold">Priyanshu Singh Chauhan</span></p>
+                    <p>
+  Designed with ❤️ by{" "}
+  <a 
+    href="https://www.priyanshusc.tech" 
+    target="_blank" 
+    rel="noopener noreferrer"
+    className="text-accent font-bold hover:underline"
+  >
+    Priyanshu Singh Chauhan
+  </a>
+</p>
                 </div>
             </div>
         </footer>
