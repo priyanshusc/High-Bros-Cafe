@@ -11,13 +11,13 @@ const Footer = () => {
                     <div className="lg:col-span-1">
                         <div className="flex items-center gap-2 mb-6">
                             <Coffee className="w-8 h-8 text-accent" />
-                            <span className="text-2xl font-display font-bold text-white">Daisy N Bean</span>
+                            <span className="text-2xl font-display font-bold text-white">Chator Adda</span>
                         </div>
                         <p className="text-sm leading-relaxed mb-6 text-primary-300">
                             Where taste meets comfort. Your favorite neighborhood spot for premium coffee, delicious food, and great conversations.
                         </p>
                         <div className="flex gap-4">
-                            <a href="https://www.instagram.com/daisynbeancafe/"
+                            <a href="https://www.instagram.com/chatoradda/"
                                 target="_blank"
                                 rel="noopener noreferrer"
                                 className="w-10 h-10 rounded-full bg-primary-800 flex items-center justify-center hover:bg-accent hover:text-white transition-colors">
@@ -79,8 +79,8 @@ const Footer = () => {
                 </div>
 
                 <div className="border-t border-primary-800 pt-8 flex flex-col md:flex-row justify-between items-center gap-4 text-sm text-primary-400">
-                    <p>© {new Date().getFullYear()} Diany N Bean Café. All rights reserved.</p>
-                    <p>Designed with ❤️ by <span className="text-accent font-bold">Priyanshu Singh Chauhan</span></p>
+                    <p>© {new Date().getFullYear()} Chator Adda Café. All rights reserved.</p>
+                    <p>Designed with ❤️ by <a href="https://www.priyanshusc.tech" target='blank'><span className="text-accent font-bold">Priyanshu Singh Chauhan</span></a></p>
                 </div>
             </div>
         </footer>
